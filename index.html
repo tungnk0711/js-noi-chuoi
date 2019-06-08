@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let myColor = ["Red", "Green", "White", "Black"];
+    let str = "";
+    for (let i = 0; i < myColor.length; i++) {
+        if (i != myColor.length - 1) {
+            str = str.concat(myColor[i] + ",");
+        } else {
+            str = str.concat(myColor[i]);
+        }
+    }
+
+    console.log(str);
+
+</script>
+
+</body>
+</html>
